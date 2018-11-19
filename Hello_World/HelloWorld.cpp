@@ -2,14 +2,14 @@
 #include <string>	
 using namespace std;
 
-string fName;
+string sFname;
 
 int main()
 {
 	cout << "Please Enter Name" << endl;
-	cin >> fName;
+	cin >> sFname;
 	cout << "Hello World" << endl;
-	cout << "Hi " + fName << endl; 
+	cout << "Hi " + sFname << endl; 
 	system("pause");
 	return 0;
 
